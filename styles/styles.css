@@ -91,7 +91,7 @@ body {
 }
 
 
-/* Johansit0 */
+/* Comienza Parte de Johansit0 */
 
 .zoom-bg {
     margin: 1rem;
@@ -110,3 +110,5 @@ body {
 .zoom-bg:hover .car-image {
     transform: scale(1.8);
 }
+
+/* Termina parte de Johansit0  */
