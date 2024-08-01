@@ -1,0 +1,36 @@
+.contenedor{
+    display: flex;
+}
+.noticia-periodico{
+    background-color: white;
+    border: 1px solid gainsboro;
+    padding: 20px;
+    width: 500px;
+    margin: 20px;
+}
+.titulo-noticia{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.fecha-noticia{
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 20px;
+}
+.contenedor-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.img-noticia{
+    max-width: 100%;
+    width: 400px;
+    height: 300px;
+    justify-content: center;
+}
+.contenido-noticia{
+    font-size: 16px;
+    line-height: 1.6;
+}
+
