@@ -34,3 +34,25 @@
     line-height: 1.6;
 }
 
+/* Comienza Parte de Johansit0 */
+
+.zoom-bg {
+    margin: 1rem;
+    height: 300px;
+    width: 600px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.car-image {
+    width: 100%;
+    object-fit: fill;
+    transition: 0.8s;
+}
+
+.zoom-bg:hover .car-image {
+    transform: scale(1.8);
+}
+
+/* Termina parte de Johansit0  */
+

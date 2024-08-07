@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+main {
+    padding: 20px;
+}
+
+article {
+    background-color: #1f1f1f;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    color:#ffffff
+}
+
+article h2 {
+    margin-top: 0;
+    color: #049e51;
+}
+
+.date {
+    color: #888;
+    font-style: italic;
+}
+.author{
+    text-align: center;
+}
+
+
+footer p {
+    margin: 0;
+    color: #888;
+    text-align: center;
+    
+}
+.imgMuriel {
+    width: 1000px;
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imgMuriel2 {
+    width: 1000px;
+    height: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
