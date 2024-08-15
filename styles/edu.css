@@ -1,41 +1,48 @@
-.contenedor{
+.contenedor {
     display: flex;
+    align-items: flex-start;
 }
-.noticia-periodico{
+.imagenes {
+    width: 40%;
+    padding: 20px;
+}
+.noticias {
+    width: 60%;
+    padding: 20px;
+}
+.contenedor-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.img-noticia {
+    max-width: 100%;
+    height: auto;
+}
+.noticia-periodico {
     background-color: white;
     border: 1px solid gainsboro;
     padding: 20px;
-    width: 500px;
-    margin: 20px;
+    margin-bottom: 20px;
+    text-align: center;
 }
-.titulo-noticia{
+.titulo-noticia {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
 }
-.fecha-noticia{
+.fecha-noticia {
     font-size: 14px;
     color: #888;
     margin-bottom: 20px;
 }
-.contenedor-img{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-.img-noticia{
-    max-width: 100%;
-    width: 400px;
-    height: 300px;
-    justify-content: center;
-}
-.contenido-noticia{
+.contenido-noticia {
     font-size: 16px;
     line-height: 1.6;
 }
-
 /* Comienza Parte de Johansit0 */
-
+/* ¿Y este chat? */
 .zoom-bg {
     margin: 1rem;
     height: 300px;
