@@ -1,14 +1,10 @@
 /* Styles from Edu */
 .contenedor {
+    width: 90%;
     display: flex;
 }
-.imagenes {
-    width: 40%;
-    padding: 20px;
-}
 .noticias {
-    width: 90%;
-    padding: 20px;
+    width: 100%;
 }
 .img-noticia {
     max-width: 100%;
@@ -18,7 +14,8 @@
     background-color: white;
     border: 1px solid gainsboro;
     padding: 20px;
-    text-align: center;
+    text-align: left;
+    border-radius: 1rem;
 }
 .titulo-noticia {
     font-size: 24px;

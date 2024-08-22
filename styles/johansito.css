@@ -2,10 +2,11 @@
 .card-s {
     position: relative;
     height: 30rem;
-    width: 18rem;
+    width: 90%;
     background-image: url('../img/samurai-bg.jpg');
     background-size: cover;
     background-position-x: 50%;
+    border-radius: 1rem;
 }
 
 .card-s .title-s {
