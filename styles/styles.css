@@ -101,7 +101,7 @@ body {
 /* Main */
 .contenedor-Mayor{
     width: 100%;
-    height: 200vh;
+    height: fit-content;
     display: flex;
 }
 

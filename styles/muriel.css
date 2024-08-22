@@ -1,5 +1,5 @@
 .contenedorMuriel {
-    height: 60%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     overflow-y: scroll;

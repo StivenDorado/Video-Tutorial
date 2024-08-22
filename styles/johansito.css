@@ -1,9 +1,9 @@
 /* Comienza Parte de Johansit0 */
 .card-s {
     position: relative;
-    height: 30rem;
+    height: 60vh;
     width: 90%;
-    background-image: url('../img/samurai-bg.jpg');
+    background-image: url('../img/bg-Colombia.jpeg');
     background-size: cover;
     background-position-x: 50%;
     border-radius: 1rem;
@@ -13,6 +13,7 @@
     position: absolute;
     left: 0;
     right: 0;
+    
     bottom: 1rem;
     text-align: center;
     color: white;
@@ -23,13 +24,15 @@
 }
 .card-s img {
     position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50%;
     opacity: 0;
     background: #00000000;
     transition: all .5s ease-in-out;
 }
+
 
 .card-s:hover .title-s{
     transform: scale(2);
