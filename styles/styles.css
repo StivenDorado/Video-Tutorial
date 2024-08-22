@@ -1,5 +1,4 @@
 * {
-    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,6 +10,10 @@ body {
 }
 
 /* HEADER */
+main {
+    padding: 2rem;
+}
+
 .site-header {
     background-color: #333;
     color: white;
@@ -56,14 +59,71 @@ body {
     
 }
 
-.containerfooter { 
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.info-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-menu h4 {
+    margin-bottom: 1rem;
+}
+
+.info-menu ul {
+    list-style: none;
+}
+
+.info-menu li {
+    margin-bottom: 0.5rem;
+}
+
+.info-menu a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.info-menu a:hover {
+    color: #aaa;
+}
+
+
+/* Main */
+.contenedor-Mayor{
+    width: 100vw;
+    height: 200vh;
+    display: flex;
+}
+
+.right-container {
+    width: 70%;
+}
+.left-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+}
+/* FOOTER */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 2rem 0;
+}
+
+.containerfooter {
     max-width: 1200px;
     margin: 0 auto;
 }
 .containerfooter2{
     display: flex;
     flex-wrap: wrap;
-   
 }
 .link{
     width: 25%;
@@ -88,10 +148,10 @@ body {
 .link ul li a:hover{
     color: blue;
     padding-left: 6px;
-    
+   
 }
 
-    
+   
 .iconos a{
     display: inline-block;
     min-height: 40px;
@@ -117,51 +177,3 @@ body {
         margin-bottom: 30px;
     }
 }
-
-/* Main */
-.contenedor-Mayor{
-    display: flex;
-}
-
-/* Comienza Parte de Johansit0 */
-
-.card-s {
-    position: relative;
-    height: 30rem;
-    width: 18rem;
-    background-image: url('../img/samurai-bg.jpg');
-    background-size: cover;
-    background-position-x: 50%;
-}
-
-.card-s .title-s {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 1rem;
-    text-align: center;
-    color: white;
-    z-index: 1;
-    transition: all .5s ease-in-out;
-    font-family: "Splash", cursive;
-    font-size: 2rem;
-}
-.card-s img {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    background: #00000000;
-    transition: all .5s ease-in-out;
-}
-
-.card-s:hover .title-s{
-    transform: scale(2);
-}
-
-.card-s:hover img{
-    opacity: 1;
-}
-
-/* Termina parte de Johansit0  */

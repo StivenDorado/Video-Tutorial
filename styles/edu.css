@@ -1,22 +1,14 @@
-/* Stile de Edu */
-
+/* Styles from Edu */
 .contenedor {
     display: flex;
-    align-items: flex-start;
 }
 .imagenes {
     width: 40%;
     padding: 20px;
 }
 .noticias {
-    width: 60%;
+    width: 90%;
     padding: 20px;
-}
-.contenedor-img {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
 }
 .img-noticia {
     max-width: 100%;
@@ -26,7 +18,6 @@
     background-color: white;
     border: 1px solid gainsboro;
     padding: 20px;
-    margin-bottom: 20px;
     text-align: center;
 }
 .titulo-noticia {

@@ -1,10 +1,9 @@
-body {
-    font-family: 'Arial', sans-serif;
+.contenedorMuriel {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
 }
-main {
-    padding: 20px;
-}
-
 article {
     background-color: #1f1f1f;
     padding: 40px;
@@ -25,8 +24,6 @@ article h2 {
 .author{
     text-align: center;
 }
-
-
 footer p {
     margin: 0;
     color: #888;
@@ -34,15 +31,14 @@ footer p {
     
 }
 .imgMuriel {
-    width: 1000px;
-    height: 600px;
+    width: 500px;
+    height: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 .imgMuriel2 {
-    width: 1000px;
-    height: 800px;
+    width: 500px;
     display: block;
     margin-left: auto;
     margin-right: auto;
